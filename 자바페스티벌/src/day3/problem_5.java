@@ -14,7 +14,6 @@ public class problem_5 {
 			sum = sum + (num / div);
 			num = num - (num / div) * div;
 			div = div / 10;
-			System.out.println(sum);
 		}
 		System.out.println("합은 " + sum + "입니다.");
 	}

@@ -8,11 +8,11 @@ public class problem_7 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("입력 : ");
 		int n = sc.nextInt();
-		int factorial = 1;
+		int fac = 1;
 		for(int i = 1; i < n + 1; i++) {
-			factorial = factorial * i;
+			fac = fac * i;
 		}
-		System.out.println("출력 : " + factorial);
+		System.out.println("출력 : " + fac);
 	}
 
 }
