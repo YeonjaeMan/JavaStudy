@@ -1,10 +1,11 @@
 package 이중for문;
 
-public class Ex01별찍기기초 {
+public class Ex03역별찍기 {
 
 	public static void main(String[] args) {
-		for(int i = 0; i < 5; i++) {
-			for(int j = 0; j < 5; j++) {
+		
+		for(int i = 5; i > 0; i--) {
+			for(int j = 0; j < i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
