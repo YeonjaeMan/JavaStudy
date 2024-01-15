@@ -9,8 +9,14 @@ public class problem_20 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자 입력 >> ");
 		int num = sc.nextInt();
+		String result = "";
 		
-		int n = (int)Math.sqrt(num);
+		while(num > 0) {
+			result = result + (num % 2);
+			num = num / 2;
+		}
+		
+		System.out.println(result);
 	}
 
 }
