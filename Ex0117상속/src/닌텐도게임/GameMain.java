@@ -16,11 +16,14 @@ public class GameMain {
 
 		Zelda z = new Zelda();
 		insert(z);
+		
+		Dongmul d = new Dongmul();
+		insert(d);
 
 	}
 
 	// 게임칩을 끼우는 기능
-	private static void insert(Pokemon game) {
+	private static void insert(GameChip game) {
 		game.gameStart();
 	}
 	// 메소드 오버로딩을 활용한 방법
