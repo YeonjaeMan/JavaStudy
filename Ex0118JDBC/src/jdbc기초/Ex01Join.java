@@ -78,10 +78,10 @@ public class Ex01Join {
 			// 3. Query(SQL구문) 전송
 			// 3-1) Query문 작성
 			String sql = "INSERT INTO jdbctest.bigdatamember(id, pw, b_name, age, score)" + "VALUES (?, ?, ?, ?, ?)";
+
 			// ? 인자
 			// : 사용자로부터 어떤 데이터가 들어올지 모를때 사용
 			// : 지정한 데이터 공간만큼 비워놓고 실행하기 전까지 대기
-
 			psmt = conn.prepareStatement(sql);
 
 			// ? 인자를 채우는 작업!
