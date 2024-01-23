@@ -102,7 +102,7 @@ public class Main {
 
 				MemberDAO dao = new MemberDAO();
 				ArrayList<MemberDTO> dtoList = dao.selectAll();
-
+				
 				for (MemberDTO dto : dtoList) {
 					System.out
 							.println(dto.getId() + "\t" + dto.getName() + "\t" + dto.getAge() + "\t" + dto.getScore());
